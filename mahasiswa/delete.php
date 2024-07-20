@@ -13,7 +13,7 @@ if (isset($_GET['id'])) {
 <div class="bg-light shadow col align-self-center w-50 p-5">
     <div class="m-5">
         <form action="" method="post">
-            <p>Apakah Anda ingin menghapus data dengan nama Mahasiswa ini <b><?php echo $row['mahasiswa'] ?></b></p>
+            <p>Hapus Data Mahasiswa <b><?php echo $row['mahasiswa'] ?></b></p>
             <br>
             <input type="submit" value="Hapus" name="hapus" class="btn btn-danger btn-sm">
             <input type="submit" value="Batal" name="batal" class="btn btn-secondary btn-sm">

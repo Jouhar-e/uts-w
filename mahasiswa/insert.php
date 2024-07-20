@@ -9,7 +9,7 @@
             <input type="text" name="mahasiswa" class="form-control" placeholder="Mahasiswa" require>
         </div>
         <div>
-            <label class="form-label">Alamat</label>
+            <label class="form-label">Alamat Rumah</label>
             <input type="text" name="alamat" class="form-control" placeholder="Alamat" require>
         </div>
         <div>
