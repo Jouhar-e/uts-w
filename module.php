@@ -1,9 +1,9 @@
 <?php
 
     class DB{
-        private $host = "127.0.0.1";
-        private $user = "root";
-        private $pass = "";
+        private $host = "192.168.0.102";
+        private $user = "admin";
+        private $pass = "admin";
         private $database = "data-uts";
         private $koneksi;
 
@@ -11,7 +11,7 @@
         {
             $this->koneksi = $this->koneksiDB();
         }
-
+        
         public function koneksiDB(){
             $koneksi = mysqli_connect($this->host,$this->user,$this->pass,$this->database);
             return $koneksi;
@@ -26,7 +26,7 @@
                 return $data;
             }
         }
-
+      
         public function getValue($sql){
             $result = mysqli_query($this->koneksi,$sql);
             $row = mysqli_fetch_assoc($result);

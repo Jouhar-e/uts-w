@@ -1,5 +1,5 @@
 <div>
-    <a href="?f=mahasiswa&m=insert" class="btn btn-primary">Tambah Data</a>
+    <a href="?f=mahasiswa&m=insert" class="btn btn-primary">Tambah Data Mahasiswa</a>
 </div>
 
 <?php
@@ -8,6 +8,7 @@ $row = $db->getData($sql);
 
 // var_dump($row);
 $no = 1;
+
 ?>
 
 <table class="table  mt-2">
